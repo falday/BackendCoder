@@ -1,4 +1,4 @@
-import utils from "./utils.js";
+import utils from "../utils.js";
 import crypto from "crypto";
 
 export class ProductManager {
@@ -7,18 +7,19 @@ export class ProductManager {
     this.products = [];
   }
   //static correlativoId = 0;
-  async addProduct(title, description, price, thumbnail, code, stock) {
+  async addProduct(product) {
     //id: this.products.length +1,
-
+    const { title, description, price, thumbnail, code, stock } = product;
     if (
       title == undefined ||
       description == undefined ||
       price == undefined ||
-      thumbnail == undefined ||
       code == undefined ||
       stock == undefined
     ) {
-      throw new Error("Todos los campos son obligatorios");
+      throw new Error(
+        "Todos los campos son obligatorios, excepto el thumbnail"
+      );
     }
     try {
       let data = await utils.readFile(this.path);
@@ -32,8 +33,10 @@ export class ProductManager {
     if (codeExists) {
       throw new Error("El codigo ya existe por favor verifique");
     } else {
+      let data = await utils.readFile(this.path);
+
       const newProduct = {
-        id: crypto.randomUUID(),
+        id: data?.length ? data.length + 1 : 1,
         title,
         description,
         price,

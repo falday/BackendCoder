@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Pinza de Fuerza",
+    "description": "Pinza de agarre resistente y de alta fuerza de sujeción",
+    "price": 25.2,
+    "code": "PinzaFuerza1",
+    "stock": 4,
+    "category": "Herramientas",
+    "thumbnail": "sin imagen"
+  },
+  {
+    "id": 2,
+    "title": "Llave Inglesa",
+    "description": "Herramienta ajustable para apretar o aflojar tuercas y tornillos",
+    "price": 200,
+    "code": "LlaveInglesa1",
+    "stock": 25,
+    "category": "Herramientas",
+    "thumbnail": "sin imagen"
+  },
+  {
+    "id": 6,
+    "title": "Cinta Métrica",
+    "description": "Herramienta de medición con una cinta flexible y marcas de longitud",
+    "price": 200,
+    "code": "CintaMetrica1",
+    "stock": 25,
+    "category": "Herramientas",
+    "thumbnail": "sin imagen"
+  },
+  {
+    "id": 7,
+    "title": "Destornillador",
+    "description": "Herramienta manual para apretar o aflojar tornillos",
+    "price": 200,
+    "code": "Destornillador1",
+    "stock": 25,
+    "category": "Herramientas",
+    "thumbnail": "sin imagen"
+  },
+  {
+    "id": 8,
+    "title": "Escuadra Metálica",
+    "description": "Herramienta de metal en forma de L para medir y trazar ángulos",
+    "price": 200,
+    "code": "EscuadraMetalica1",
+    "stock": 25,
+    "category": "Herramientas",
+    "thumbnail": "sin imagen"
+  },
+  {
+    "id": 9,
+    "title": "Sierra de Mano",
+    "description": "Herramienta de corte manual con hoja dentada para cortar madera y otros materiales",
+    "price": 2.99,
+    "code": "SierraMano1",
+    "stock": 23,
+    "category": "Herramientas",
+    "thumbnail": "sin imagen"
+  },
+  {
+    "id": 10,
+    "title": "Sierra de Mano",
+    "description": "Herramienta de corte manual con hoja dentada para cortar madera y otros materiales",
+    "price": 99.2,
+    "code": "SierraMano2",
+    "stock": 32,
+    "category": "Herramientas",
+    "thumbnail": "sin imagen"
+  }
+]
